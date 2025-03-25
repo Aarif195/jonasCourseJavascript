@@ -58,13 +58,17 @@ export const loadSearchResults = async function (query) {
     const data = await AJAX(`${API_URL}?search=${query}&key=${KEY}`);
     console.log(data);
 
+    console.log('API Data', data);
+    console.log('Recipe', data.data.recipes);
+    
+    
     state.search.results = data.data.recipes.map((rec) => {
       return {
         id: rec.id,
         title: rec.title,
         publisher: rec.publisher,
-        image: rec.image_url,
-        ...(rec.key && { key: recipe.key }),
+        image: rec.image_url,        
+        ...(rec.key && { key: rec.key }),
       };
     });
     state.search.page = 1;
