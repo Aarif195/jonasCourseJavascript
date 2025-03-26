@@ -21,6 +21,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
@@ -29,6 +30,7 @@ body {
   color: #444;
   line-height: 1.9;
   background-color: #f3f3f3;
+  overflow-x: hidden;
 }
 
 /* GENERAL ELEMENTS */
@@ -596,6 +598,7 @@ h4 {
   box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
   z-index: 1000;
   transition: all 0.5s;
+  overflow: hidden;
 }
 
 .overlay {
@@ -646,7 +649,7 @@ h4 {
   font-family: inherit;
   color: inherit;
   position: absolute;
-  top: 0.5rem;
+  top: 1rem;
   right: 2rem;
   font-size: 4rem;
   cursor: pointer;
@@ -674,7 +677,7 @@ h4 {
 
 /* Tablet view adjustments */
 @media (max-width: 1024px) {
-  html {
+  /* html {
     font-size: 58%;
   }
 
@@ -691,13 +694,13 @@ h4 {
 
   .logo {
     height: 4.5rem;
-  }
+  } */
 }
 
 
 /* Tablet view adjustments */
 @media (max-width: 1024px) {
-  html {
+  /* html {
     font-size: 58%;
   }
 
@@ -714,12 +717,12 @@ h4 {
 
   .logo {
     height: 4.5rem;
-  }
+  } */
 }
 
 /* Mobile view adjustments */
 @media (max-width: 768px) {
-  html {
+  /* html {
     font-size: 55%;
   }
 
@@ -752,12 +755,12 @@ h4 {
   .login__btn {
     align-self: center;
     font-size: 1.6rem;
-  }
+  } */
 }
 
 /* Extra small devices */
 @media (max-width: 480px) {
-  .logo {
+  /* .logo {
     height: 4rem;
   }
 
@@ -772,5 +775,5 @@ h4 {
 
   .login__btn {
     font-size: 1.4rem;
-  }
+  } */
 }
