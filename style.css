@@ -71,4 +71,19 @@ a:hover {
   ul#project-list li {
     margin: 0;
   }
+
+
+    .project-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .project-list li {
+    margin: 0;
+  }
 }
+
+ /* <div class="recipe__quantity">${
+                ing.quantity ? new Fraction(ing.quantity).toString() : ""
+              }</div> */

@@ -1,3 +1,5 @@
+import Fraction from 'fraction.js';
+
 const projects = [
   "asynchronous",
   "Bankist",
@@ -19,3 +21,5 @@ projects.forEach((project) => {
   `;
   list.appendChild(li);
 });
+
+

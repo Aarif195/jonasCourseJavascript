@@ -12,7 +12,7 @@ const tabsContainer = document.querySelector(".operations__tab-container");
 const tabsContent = document.querySelectorAll(".operations__content");
 console.log(tabs, tabsContainer);
 
-console.log(modal.getBoundingClientRect());
+
 
 
 ///////////////////////////////////////
@@ -318,11 +318,11 @@ console.log(document.body);
 const body = document.querySelector("body");
 const headerr = document.querySelector(".header");
 const allSectionss = document.querySelectorAll(".section");
-console.log(allSections);
+// console.log(allSections);
 
 document.getElementById("section--1");
 const allButtons = document.getElementsByTagName("button");
-console.log(allButtons);
+// console.log(allButtons);
 
 console.log(document.getElementsByClassName("btn"));
 
@@ -461,11 +461,11 @@ console.log(h1.parentElement);
 h1.closest("h1").style.background = "var(--gradient-primary)";
 
 // Going sideways: siblings
-console.log(h1.previousElementSibling);
-console.log(h1.nextElementSibling);
+// console.log(h1.previousElementSibling);
+// console.log(h1.nextElementSibling);
 
-console.log(h1.previousSibling);
-console.log(h1.nextSibling);
+// console.log(h1.previousSibling);
+// console.log(h1.nextSibling);
 
 console.log(h1.parentElement.children);
 // [...h1.parentElement.children].forEach(function (el) {
@@ -477,7 +477,6 @@ console.log(h1.parentElement.children);
 const initialCoords = section1.getBoundingClientRect();
 console.log(initialCoords);
 
-console.log(initialCoords);
 
 window.addEventListener("scroll", function () {
   console.log(window.scrollY);
